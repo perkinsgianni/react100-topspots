@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TopSpot from './topspot';
-// import Map from './map';
+import Map from './map';
+
 const axios = require('axios');
 
 class App extends Component {
@@ -45,6 +46,7 @@ class App extends Component {
                 />
               ))
             }
+            <Map />
           </div>
         </div>
       </div>
